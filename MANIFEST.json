@@ -1,0 +1,222 @@
+{
+ "frozen_at": {
+  "commit": "8e18c10061194bdee4048276991af6978c99afa7",
+  "tag": null,
+  "working_tree_clean": true,
+  "ledger": "ladder_certification_K30_effect.json",
+  "ledger_sha256": "a377768dbf78934665abbfc7c4fc0bedec0adc90efb6f786d56026040785c39b"
+ },
+ "policy": "Reviewer-only supplementary material. The 305 translations are NOT included: the certification records are complete so the paper's counts can be checked, and the translation sources are a representative sample covering every family, play row and certification mechanism.",
+ "full_corpus": false,
+ "translations_included": 14,
+ "sample": {
+  "bide": "declared hand map (LUDII_HAND_MAP)",
+  "azteka": "declared score map (LUDII_SCORE_MAP)",
+  "spice": "declared score map closing a same-effect class",
+  "trax": "declared per-cell rotation, correspondence learned from the board",
+  "cram": "tile footprint read out of the equipment",
+  "l_game": "the move's own state joins its identity; also solved",
+  "ako_okwe": "residual: a certifier artefact, no rule in the file is wrong",
+  "quantum_leap": "start synchronisation; move-granularity mismatch",
+  "agon": "covers family:race, ops:yes, row:nonterminating",
+  "adugo": "covers family:hunt, row:degenerate",
+  "chomp": "covers family:nim, row:plays-with-skill",
+  "almatafl": "covers family:war",
+  "contagion": "covers family:graph",
+  "nex": "covers row:deadlock"
+ },
+ "axes_not_covered": [],
+ "mutation_study_games_in_sample": [],
+ "files": [
+  {
+   "path": "certifier/ludii_oracle.py",
+   "bytes": 108896,
+   "sha256": "9219be52968bc915"
+  },
+  {
+   "path": "certifier/validate_play.py",
+   "bytes": 14261,
+   "sha256": "bfe22ccc115529be"
+  },
+  {
+   "path": "certifier/validate_play_n.py",
+   "bytes": 9305,
+   "sha256": "bc01ef8cd0a99cfa"
+  },
+  {
+   "path": "certifier/ladder_diff.py",
+   "bytes": 4786,
+   "sha256": "28cad46f3d8e380e"
+  },
+  {
+   "path": "certifier/mutation_test.py",
+   "bytes": 16576,
+   "sha256": "30f1bbc08072d1da"
+  },
+  {
+   "path": "certifier/corpus_manifest.py",
+   "bytes": 7073,
+   "sha256": "e42ca9ce7c779729"
+  },
+  {
+   "path": "certifier/base.py",
+   "bytes": 4554,
+   "sha256": "cf6ae287d97f4ab2"
+  },
+  {
+   "path": "certifier/pipeline.py",
+   "bytes": 16847,
+   "sha256": "24c431c433b0d40b"
+  },
+  {
+   "path": "certifier/runner.py",
+   "bytes": 1854,
+   "sha256": "a249c8861d5b3199"
+  },
+  {
+   "path": "certifier/metrics.py",
+   "bytes": 7236,
+   "sha256": "8acc4dc1bdabd44d"
+  },
+  {
+   "path": "certifier/record_metrics.py",
+   "bytes": 4588,
+   "sha256": "69cf82ef164d5c43"
+  },
+  {
+   "path": "certifier/stage5_rl.py",
+   "bytes": 19995,
+   "sha256": "4381d790e2c64021"
+  },
+  {
+   "path": "certifier/rl_adapter.py",
+   "bytes": 4468,
+   "sha256": "81ad03800e10aadc"
+  },
+  {
+   "path": "certifier/bgame.py",
+   "bytes": 16047,
+   "sha256": "42d88d0ff396ddb5"
+  },
+  {
+   "path": "games/__init__.py",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c14"
+  },
+  {
+   "path": "agents/__init__.py",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c14"
+  },
+  {
+   "path": "games/converted/__init__.py",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c14"
+  },
+  {
+   "path": "games/ops/__init__.py",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c14"
+  },
+  {
+   "path": "games/checkers.py",
+   "bytes": 14176,
+   "sha256": "9f74e53f7fa88a3a"
+  },
+  {
+   "path": "games/checkers_n.py",
+   "bytes": 11743,
+   "sha256": "ca24af8ba94a5cdb"
+  },
+  {
+   "path": "games/connect_four.py",
+   "bytes": 7929,
+   "sha256": "db99a829965654f8"
+  },
+  {
+   "path": "games/kalah.py",
+   "bytes": 10068,
+   "sha256": "5cc2d2f26958db8c"
+  },
+  {
+   "path": "games/kinarow.py",
+   "bytes": 5318,
+   "sha256": "11961befe70d99fa"
+  },
+  {
+   "path": "games/nim.py",
+   "bytes": 4563,
+   "sha256": "672d4c4cba836ce8"
+  },
+  {
+   "path": "games/othello.py",
+   "bytes": 11438,
+   "sha256": "343f50d90d954e6a"
+  },
+  {
+   "path": "games/othello_n.py",
+   "bytes": 5717,
+   "sha256": "982d32aae487dfdc"
+  },
+  {
+   "path": "agents/alphabeta_agent.py",
+   "bytes": 3467,
+   "sha256": "57bf67ee78074570"
+  },
+  {
+   "path": "agents/connect_four_greedy_agent.py",
+   "bytes": 396,
+   "sha256": "0f2b914d37830766"
+  },
+  {
+   "path": "agents/generic_greedy_agent.py",
+   "bytes": 2107,
+   "sha256": "f58a7af11228e6bd"
+  },
+  {
+   "path": "agents/greedy_agent.py",
+   "bytes": 352,
+   "sha256": "ac1fb78150e8d8b8"
+  },
+  {
+   "path": "agents/human_cli_agent.py",
+   "bytes": 2834,
+   "sha256": "a94b39f1c6e7ba1c"
+  },
+  {
+   "path": "agents/mcts_agent.py",
+   "bytes": 7853,
+   "sha256": "22927139a41c75e4"
+  },
+  {
+   "path": "agents/nim_optimal_agent.py",
+   "bytes": 1249,
+   "sha256": "9ff5dadc47c75464"
+  },
+  {
+   "path": "agents/profiled_mcts_agent.py",
+   "bytes": 1879,
+   "sha256": "c62fd89601528370"
+  },
+  {
+   "path": "agents/random_agent.py",
+   "bytes": 297,
+   "sha256": "5e6552d1e8d579de"
+  },
+  {
+   "path": "certifier/LUDII_JAR.md",
+   "bytes": 1292,
+   "sha256": "ac3a84a40c1f8ccd"
+  },
+  {
+   "path": "certifier/requirements.txt",
+   "bytes": 573,
+   "sha256": "9b6609d35c53f3d9"
+  },
+  {
+   "path": "README.md",
+   "bytes": 1795,
+   "sha256": "6aa5b8e6e2773e52"
+  }
+ ]
+}

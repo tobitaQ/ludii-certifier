@@ -1,0 +1,16 @@
+# Everything certifier/ imports, at the versions that produced the numbers in the paper.
+# Deliberately NOT the repository's own requirements.txt: nothing here needs an Anthropic
+# account, a web server or a GUI, and shipping that file implied otherwise.
+#
+# Also required, and not installable from here:
+#   a JVM (jpype starts one in-process)
+#   ludii/Ludii-1.3.14.jar -- see certifier/LUDII_JAR.md for the exact build and its sha256
+
+gymnasium==1.2.3
+jpype1==1.7.1
+numpy==2.2.6
+sb3-contrib==2.8.0
+scikit-learn==1.9.0
+scipy==1.17.1
+stable-baselines3==2.8.0
+torch==2.6.0
